@@ -34,9 +34,9 @@ class GuiRectangle(Rectangle):
         canvas.goto(self.point1.x, self.point1.y)
 
         canvas.pendown()
-        canvas.forward(self.point2.x - self.point1.x)  # Move 100 pixels
+        canvas.forward(self.point2.x - self.point1.x)
         canvas.left(90)  # Turn 90 degrees left
-        canvas.forward(self.point2.y - self.point1.y)  # Move 200 pixels up
+        canvas.forward(self.point2.y - self.point1.y)
         canvas.left(90)  # Turn 90 degrees left
         canvas.forward(self.point2.x - self.point1.x)
         canvas.left(90)
